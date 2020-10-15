@@ -1,0 +1,108 @@
+<html>
+    <head>
+    <title>CURRICULUM VITAE</title>
+
+    </head>
+    <body>
+    <h1 align=center>CURRICULUM VITAE</h1>
+    <!--INFORMASI DATA DIRI-->
+        <hr>
+        <b>PERSONAL INFORMATION</b>
+        <hr>
+        <table style="width:50%">
+            <!--FOTO-->
+            <img src="fotoku.jpg" align="right" width="104" height="142">
+        <tr>
+        <th></th>
+        <th></th>
+        </tr>
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>: Hawari Muhtarom </td>
+        </tr>
+        <tr>
+            <td>Tempat Tanggal Lahir</td>
+            <td>: Braja Harjosari, 04 Maret 1998 </td>  
+        </tr>
+            <td>Alamat</td>
+            <td>: Jalan Komarudin No 20</td>
+        <tr>
+            <td>Status</td>
+            <td>: Mahasiswa</td>
+        </tr>
+            <tr>
+            <td>NO HP</td>
+            <td>: 085664842748</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>: muhtaromhawari312@gmail</td>
+        </tr>
+        </table>
+    <!--RIWAYAT PENDIDIKAN FORMAL-->  
+            <hr>
+            <b>PENDIDIKAN FORMAL</b>
+            <hr>
+                <table style="width:80%">
+            <tr>
+            <th></th>
+            <th></th>
+            </tr>
+            <tr>
+                <td>2013-2016</td>
+                <td>SMK Negeri 1 Sukadana </td>
+            </tr>
+            <tr>
+                <td>2010-2013</td>
+                <td>SMP Islam YPI 1 Braja Selebah </td>  
+            </tr>
+                <td>2004-2010</td>
+                <td>SDN 2 Braja Harjosari</td>
+            <tr>
+                <td>2003-2004</td>
+                <td>TK ABA 2 Braja Harjosari</td>
+            </tr>
+            </table>
+    <!--RIWAYAT PENDIDIKAN INFORMAL-->      
+                    <hr>
+                    <b>PENDIDIKAN INFORMAL</b>
+                    <hr>
+                        <table style="width:110%">
+                    <tr>
+                    <th></th>
+                    <th></th>
+                    </tr>
+                    <tr>
+                        <td>2014-2015</td>
+                        <td>LPPK Arroyan - Teknik Komputer dan Jaringan </td>
+                    </tr>
+                    <tr>
+                        <td>2013-2014</td>
+                        <td>LPPK Arroyan Microsoft Office</td>  
+                    </tr>
+                    </table>
+    <!-- RIWAYAT ORGANISASI-->
+                            <hr>
+                            <b>ORGANISASI</b><hr>
+                            <table style="width:180%">
+                        <tr>
+                        <th></th>
+                        <th></th>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Ketua SUKADANA MUSIC Crew</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>Sekretaris Ikatan Pemuda Lampung Timur </td>  
+                        </tr>
+                        </table>
+    <!--KEAHLIAN YANG DIMILIKI-->                  
+                            <hr>
+                            <b>KEAHLIAN</b><hr>
+                        Mengoperasikan Komputer : Microsoft Office<br>
+                        Desain Grafis: CorelDRAW & Adobe Ilustrator<br>
+    <a href="indeks.html">KEMBALI KE INDEKS</a><br>
+    </body>
+</html>
