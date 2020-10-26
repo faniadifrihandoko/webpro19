@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Student Registration Form</title>
+</style>
+</head>
+ 
+<body>
+<h3 align="center">FORM REGISTRASI MAHASISWA</h3>
+<form action="form.php" method="POST">
+ 
+<table align="center" cellpadding = "10">
+ 
+
+<tr>
+<td>NAMA LENGKAP</td>
+<td><input type="text" name="Nama_Lengkap" maxlength="30"/>
+</td>
+</tr>
+ 
+
+
+<tr>
+<td>TEMPAT LAHIR</td>
+<td><input type="text" name="Tempat_Lahir" maxlength="30"/>
+</td>
+</tr>
+
+<tr>
+<td>TANGGAL LAHIR</td> 
+<td>
+<input type="date" name="start_date" id="start_date" value="2013-12-01">
+</td>
+</tr>
+ 
+<tr>
+<td>AGAMA</td>
+<td>
+	  <select name='agama'>
+	  	<option value="">--Pilih--</option>
+		<option value='islam'>Islam</option>
+		<option value='kristen'>Kristen</option>
+		<option value='katholik'>Katholik</option>
+		<option value='hindu'>Hindu</option>
+		<option value='kristen'>Budha</option>
+	  </select>
+
+</td>
+</tr>
+
+
+<tr>
+<td>EMAIL</td>
+<td><input type="text" required placeholder="user@example.com" name="Email" maxlength="100"  /></td>
+</tr>
+ 
+
+<tr>
+<td>NOMOR TELEPON</td>
+<td>
+<input type="tel" pattern="pattern"  name="nomor_telepon" maxlength="10" />
+</td>
+</tr>
+ 
+
+<tr>
+<td>Jenis Kelamin</td>
+<td>
+Laki-laki <input type="radio" name="Jenis_Kelamin" value="laki" />
+Perempuan <input type="radio" name="Jenis_Kelamin" value="perempuan" />
+</td>
+</tr>
+ 
+
+<tr>
+<td>ALAMAT  
+</td>
+<td><textarea name="Alamat" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+
+<tr>
+<td>KOTA</td>
+<td><input type="text" name="Provinsi" maxlength="30" />
+
+</td>
+</tr>
+ 
+
+<tr>
+<td>KODE POS</td>
+<td><input type="text" name="Kode_Pos" maxlength="5" />
+
+</td>
+</tr>
+ 
+
+<tr>
+<td>PROVINSI</td>
+<td><input type="text" name="State" maxlength="30" />
+
+</td>
+</tr>
+
+
+<tr>
+<td>HOBBIES 
+  
+</td>
+ 
+<td>
+Drawing
+<input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+Singing
+<input type="checkbox" name="Football" value="Singing" />
+Dancing
+<input type="checkbox" name="Dancing" value="Dancing" />
+Sketching
+<input type="checkbox" name="Cooking" value="Cooking" /> 
+Others
+<input type="checkbox" name="lainnya" value="Other">
+<input type="text" name="Other_Hobby" maxlength="30" />
+</td>
+</tr>
+ 
+ 
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
