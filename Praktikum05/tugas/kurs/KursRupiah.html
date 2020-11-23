@@ -1,0 +1,35 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <script src="../../js/kurs.js"></script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+        
+            <td align="center" ><b>Masukan Nilai</b></td>
+            <td align="center"><b>valas</b></td>
+            <td align="center"><b>Nilai Rupiah</b></td>
+        </tr>
+        <tr>
+            <td><input id="input_nilai" placeholder="masukan nilai uang anda" type="text" name="nilai"></td>
+
+            <td><select id="valas" onclick="change_kurs()" name="uangasing" id="changekurs" >
+                    <option value="pilih">-- Pilih Mata Uang Asing --</option>
+                    <option value="US">Dollar US</option>
+                    <option value="SGD">Dollar Singapore</option>
+                    <option value="RINGGIT">Ringgit Malaysia</option>
+                    <option value="YENJPG">Yen Jepang</option>
+                    <option value="EURO">Euro</option>
+                    <option value="RIYAL">Riyal Arab Saudi</option>
+            </select>
+            </td>
+
+            <td><input id="hasil_nilai" readonly value="0" type="text" name="nilai rupiah"></td>
+        </tr>
+            
+    </table>
+</body>
+</html>

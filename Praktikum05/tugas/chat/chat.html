@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <style>
+        section{
+            width: 600px;
+            height: 500px;
+            border: 1px solid black;
+        }
+        .container-chat{
+            margin-bottom: 5px;
+            height: 500px;
+            overflow: auto;
+
+        }
+        .container-chat p {
+            padding: 2;
+            margin: 5px;
+        }
+        #output-chat{
+            margin: 2px 2px;
+            padding: 2px;
+        }
+        .input-chat{
+            width: 100%;
+            padding: 0.5px;
+            box-sizing: border-box;
+        }
+        input{
+            width:90%;
+        }
+        button
+            width: 9%;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Message</title>
+    <script src="../../js/chat.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container-chat" id="container-chat">
+        </div>
+        <div class="input-chat">
+            <input type="text" id="input-masukan-chat" value=""/><button onclick=kirim() id="kirim">kirim</button>
+        </div>
+    </section>
+</body>
